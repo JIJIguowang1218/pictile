@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# build output
+dist/
+build/
+out/
+*.egg-info/
+
+# local data / experiments
+data/
+samples/
+tmp/
+*.log
+
+# editor / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
