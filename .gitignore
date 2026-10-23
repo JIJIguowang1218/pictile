@@ -19,6 +19,7 @@ out/
 data/
 samples/
 tmp/
+_research/
 *.log
 
 # editor / os
