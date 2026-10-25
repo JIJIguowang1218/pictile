@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0008",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0008.jpg",
+  "sha256": "8c62318f32b77badd6215172ed01d3e6c58f19dd0146e6da753a6ab018f7c580",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "B32",
+          "G8",
+          "M2",
+          "B26",
+          "A5",
+          "M15",
+          "B10",
+          "H5",
+          "B23",
+          "M7",
+          "M5",
+          "F10"
+        ],
+        "delta_e_p50": 8.830540151440227,
+        "delta_e_p95": 10.422755389837294,
+        "delta_e_max": 19.16294578980235,
+        "beads_total": 930,
+        "compute_ms": 213.5,
+        "image_meta": {
+          "orig_size": [
+            271,
+            271
+          ],
+          "crop_size": [
+            271,
+            271
+          ],
+          "crop_box": [
+            0,
+            0,
+            271,
+            271
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 276.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0008/preview.png",
+          "pdf": "T01-B20261026B-I0008/pattern.pdf",
+          "csv": "T01-B20261026B-I0008/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "eye_lost",
+        "banding",
+        "detail_lost",
+        "subject_too_small"
+      ],
+      "comment": "边缘轮廓色彩脏，经典黑色描边边粗灰色，细节丢失严重，尺寸太小",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

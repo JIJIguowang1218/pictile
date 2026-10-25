@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0080",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0080.jpg",
+  "sha256": "d06ffb1d15ddd102ccd558a581b5be4592e0e01218c3515a1c9c71fe3d927eba",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H20",
+          "H5",
+          "C6",
+          "M9",
+          "M3",
+          "C18",
+          "M4",
+          "H7",
+          "C24",
+          "G14",
+          "H23",
+          "D24"
+        ],
+        "delta_e_p50": 8.12905587485749,
+        "delta_e_p95": 10.507840190412509,
+        "delta_e_max": 15.130133079902087,
+        "beads_total": 931,
+        "compute_ms": 226.0,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "scene",
+        "total_ms": 281.4,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0080/preview.png",
+          "pdf": "T01-B20261026B-I0080/pattern.pdf",
+          "csv": "T01-B20261026B-I0080/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "background_clutter",
+        "banding",
+        "detail_lost",
+        "outline_blur"
+      ],
+      "comment": "尺寸小，糊成一团，不可以用了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

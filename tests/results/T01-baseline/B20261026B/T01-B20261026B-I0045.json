@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0045",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0045.jpg",
+  "sha256": "608051d7811d20ca9555b3f270407f564f0b75a79cf8b33854a1df97d91b7c1f",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H2",
+          "M6",
+          "C16",
+          "G5",
+          "H14",
+          "F19",
+          "M2",
+          "B32",
+          "G21",
+          "C7",
+          "B25",
+          "F20"
+        ],
+        "delta_e_p50": 0.50029902463151,
+        "delta_e_p95": 10.81959142737578,
+        "delta_e_max": 16.45053177169266,
+        "beads_total": 929,
+        "compute_ms": 315.2,
+        "image_meta": {
+          "orig_size": [
+            980,
+            980
+          ],
+          "crop_size": [
+            980,
+            980
+          ],
+          "crop_box": [
+            0,
+            0,
+            980,
+            980
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "logo",
+        "total_ms": 393.8,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0045/preview.png",
+          "pdf": "T01-B20261026B-I0045/pattern.pdf",
+          "csv": "T01-B20261026B-I0045/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "detail_lost",
+        "color_shift"
+      ],
+      "comment": "边缘色彩偏灰、脏",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

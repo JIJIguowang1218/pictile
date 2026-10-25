@@ -1,0 +1,90 @@
+{
+  "image_id": "T01-B20261026B-I0022",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0022.jpg",
+  "sha256": "e87b50aa0c29afa3f7a360ccec74af94d84b4c3164b84f98cd70259af83d56c4",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H5",
+          "M7",
+          "C18",
+          "M3",
+          "G14",
+          "H6",
+          "H14",
+          "H20",
+          "C29",
+          "G17",
+          "M15",
+          "M9"
+        ],
+        "delta_e_p50": 8.026524817816679,
+        "delta_e_p95": 11.96202925539817,
+        "delta_e_max": 15.02609719866893,
+        "beads_total": 931,
+        "compute_ms": 234.9,
+        "image_meta": {
+          "orig_size": [
+            481,
+            428
+          ],
+          "crop_size": [
+            428,
+            428
+          ],
+          "crop_box": [
+            26,
+            0,
+            454,
+            428
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 292.0,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0022/preview.png",
+          "pdf": "T01-B20261026B-I0022/pattern.pdf",
+          "csv": "T01-B20261026B-I0022/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "outline_blur",
+        "color_shift",
+        "detail_lost"
+      ],
+      "comment": "尺寸偏小，亮色普遍饱和度偏高太多",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

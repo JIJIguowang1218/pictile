@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0100",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0100.jpg",
+  "sha256": "ba8b146521e23ed251e1d038efa225cadcf72e72e3e24fb508ac053d83bf6cbe",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M9",
+          "H5",
+          "M15",
+          "G4",
+          "B11",
+          "H23",
+          "M12",
+          "G21",
+          "H16",
+          "B23",
+          "H14",
+          "G14"
+        ],
+        "delta_e_p50": 6.5202570020421895,
+        "delta_e_p95": 12.848057396595898,
+        "delta_e_max": 19.629098188503775,
+        "beads_total": 929,
+        "compute_ms": 292.2,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "硬负例",
+        "type": "hard_negative",
+        "total_ms": 366.4,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0100/preview.png",
+          "pdf": "T01-B20261026B-I0100/pattern.pdf",
+          "csv": "T01-B20261026B-I0100/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "background_clutter",
+        "outline_blur",
+        "detail_lost",
+        "subject_too_small"
+      ],
+      "comment": "主体太小，细节丢失、背景杂乱、尺寸小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

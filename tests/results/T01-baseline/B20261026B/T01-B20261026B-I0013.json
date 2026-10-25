@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0013",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0013.jpg",
+  "sha256": "1960f3a4e80e04c3a071305d7a5ce30aaf21d7abf0367b19bc112a4b833ec3d2",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "F10",
+          "G14",
+          "H16",
+          "G13",
+          "G17",
+          "M7",
+          "F11",
+          "G7",
+          "M9",
+          "F18",
+          "G8",
+          "H6"
+        ],
+        "delta_e_p50": 6.509435766037815,
+        "delta_e_p95": 12.734086658409286,
+        "delta_e_max": 16.74903577049435,
+        "beads_total": 930,
+        "compute_ms": 205.4,
+        "image_meta": {
+          "orig_size": [
+            1085,
+            1080
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            2,
+            0,
+            1082,
+            1080
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 262.6,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0013/preview.png",
+          "pdf": "T01-B20261026B-I0013/pattern.pdf",
+          "csv": "T01-B20261026B-I0013/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "background_clutter",
+        "detail_lost"
+      ],
+      "comment": "主体与背景色融合，眼白丢失、眉毛丢失",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "image_id": "T01-B20261026B-I0060",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0060.jpg",
+  "sha256": "a2ba55fbd62a0f01fd24f8a0b5a5e125e8ea900e769eee52ac4e4ea9f2c780fc",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H9",
+          "H23",
+          "H5",
+          "M7",
+          "H6",
+          "H14",
+          "M15",
+          "H7",
+          "H11",
+          "H4",
+          "H3",
+          "M1"
+        ],
+        "delta_e_p50": 0.42085126512036647,
+        "delta_e_p95": 6.90620070113209,
+        "delta_e_max": 11.125631722193278,
+        "beads_total": 931,
+        "compute_ms": 207.9,
+        "image_meta": {
+          "orig_size": [
+            800,
+            800
+          ],
+          "crop_size": [
+            800,
+            800
+          ],
+          "crop_box": [
+            0,
+            0,
+            800,
+            800
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "product",
+        "total_ms": 267.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0060/preview.png",
+          "pdf": "T01-B20261026B-I0060/pattern.pdf",
+          "csv": "T01-B20261026B-I0060/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "outline_blur"
+      ],
+      "comment": "内部完全糊在一起，尺寸也小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

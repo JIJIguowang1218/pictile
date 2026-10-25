@@ -1,0 +1,90 @@
+{
+  "image_id": "T01-B20261026B-I0073",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0073.jpg",
+  "sha256": "79c4c36efdbe03fd5594028686b11715a65510e58ddbb0a949a20a42028c89ee",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M3",
+          "B23",
+          "B26",
+          "C19",
+          "G13",
+          "C22",
+          "F10",
+          "H7",
+          "B22",
+          "H16",
+          "G21",
+          "M15"
+        ],
+        "delta_e_p50": 8.670271588487337,
+        "delta_e_p95": 12.66517040905793,
+        "delta_e_max": 18.23641692752277,
+        "beads_total": 930,
+        "compute_ms": 240.7,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "scene",
+        "total_ms": 296.6,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0073/preview.png",
+          "pdf": "T01-B20261026B-I0073/pattern.pdf",
+          "csv": "T01-B20261026B-I0073/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [
+        "outline_blur",
+        "color_shift",
+        "banding"
+      ],
+      "comment": "边缘色彩偏灰、脏，背景色阶断裂",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

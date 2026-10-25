@@ -1,0 +1,90 @@
+{
+  "image_id": "T01-B20261026B-I0027",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0027.jpg",
+  "sha256": "20c2a3ac5e42c1e7f4c5cf0cf0d5f9eb03c2563fe271074d849180a5598af268",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M4",
+          "G14",
+          "H19",
+          "F6",
+          "G7",
+          "F3",
+          "H16",
+          "M13",
+          "H2",
+          "G13",
+          "G8",
+          "F15"
+        ],
+        "delta_e_p50": 3.4239212374161276,
+        "delta_e_p95": 8.834886142845795,
+        "delta_e_max": 14.877199990168888,
+        "beads_total": 930,
+        "compute_ms": 223.3,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 278.3,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0027/preview.png",
+          "pdf": "T01-B20261026B-I0027/pattern.pdf",
+          "csv": "T01-B20261026B-I0027/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "eye_lost",
+        "detail_lost",
+        "banding"
+      ],
+      "comment": "面部细节丢失，面部色彩不够",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "image_id": "T01-B20261026B-I0095",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0095.jpg",
+  "sha256": "db0f92ea333a128dad2e765fc648ecd829460766b353aed974f4611f5232d533",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H16",
+          "M15",
+          "H5",
+          "H23",
+          "H7",
+          "H6",
+          "B23",
+          "G17",
+          "G14",
+          "M1",
+          "M9",
+          "M12"
+        ],
+        "delta_e_p50": 4.870313456194285,
+        "delta_e_p95": 12.137907429732257,
+        "delta_e_max": 15.307729922438487,
+        "beads_total": 931,
+        "compute_ms": 209.4,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "硬负例",
+        "type": "hard_negative",
+        "total_ms": 266.5,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0095/preview.png",
+          "pdf": "T01-B20261026B-I0095/pattern.pdf",
+          "csv": "T01-B20261026B-I0095/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "background_clutter",
+        "outline_blur",
+        "eye_lost",
+        "detail_lost",
+        "banding",
+        "skin_shift",
+        "island_noise"
+      ],
+      "comment": "和背景糊在一起，没法用，眼睛高光丢失，",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

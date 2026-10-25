@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0024",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0024.jpg",
+  "sha256": "92345f64f32ed211e123ce614205b6632d1e8766076419f49888003b14045b7b",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "G17",
+          "H15",
+          "H6",
+          "M14",
+          "B23",
+          "F17",
+          "H7",
+          "M15",
+          "G14",
+          "M12",
+          "H16",
+          "E21"
+        ],
+        "delta_e_p50": 7.667873810697025,
+        "delta_e_p95": 12.841552717586422,
+        "delta_e_max": 17.862134351168645,
+        "beads_total": 931,
+        "compute_ms": 261.7,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1331
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            125,
+            1080,
+            1205
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 385.4,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0024/preview.png",
+          "pdf": "T01-B20261026B-I0024/pattern.pdf",
+          "csv": "T01-B20261026B-I0024/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "eye_lost",
+        "detail_lost",
+        "background_clutter",
+        "banding"
+      ],
+      "comment": "眼白丢失",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

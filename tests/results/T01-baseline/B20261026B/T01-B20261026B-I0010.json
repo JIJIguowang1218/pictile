@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0010",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0010.jpg",
+  "sha256": "46b88afd1caea31620b2c9895b465ba04410b5a3196d44e53c7181aa44a14dcf",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H9",
+          "M15",
+          "M6",
+          "H2",
+          "H5",
+          "B26",
+          "H23",
+          "M5",
+          "H14",
+          "H15",
+          "M9",
+          "H6"
+        ],
+        "delta_e_p50": 3.371945641797951,
+        "delta_e_p95": 12.72046734316318,
+        "delta_e_max": 17.54469175924579,
+        "beads_total": 931,
+        "compute_ms": 204.6,
+        "image_meta": {
+          "orig_size": [
+            1056,
+            936
+          ],
+          "crop_size": [
+            936,
+            936
+          ],
+          "crop_box": [
+            60,
+            0,
+            996,
+            936
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 260.1,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0010/preview.png",
+          "pdf": "T01-B20261026B-I0010/pattern.pdf",
+          "csv": "T01-B20261026B-I0010/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [],
+      "comment": "尺寸小了，显得色彩脏。边缘轮廓色彩脏、灰色",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

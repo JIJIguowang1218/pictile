@@ -1,0 +1,95 @@
+{
+  "image_id": "T01-B20261026B-I0098",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0098.jpg",
+  "sha256": "153b9df8cc5e728ba18a50852373119e9533843cd2c74d86ff11ff4bf612e93c",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "G21",
+          "M4",
+          "G14",
+          "G4",
+          "M9",
+          "F11",
+          "G11",
+          "H19",
+          "M7",
+          "A23",
+          "G17",
+          "G13"
+        ],
+        "delta_e_p50": 5.624426432438779,
+        "delta_e_p95": 10.289326617792165,
+        "delta_e_max": 15.631688494545768,
+        "beads_total": 932,
+        "compute_ms": 298.9,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1443
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            181,
+            1080,
+            1261
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "硬负例",
+        "type": "hard_negative",
+        "total_ms": 371.5,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0098/preview.png",
+          "pdf": "T01-B20261026B-I0098/pattern.pdf",
+          "csv": "T01-B20261026B-I0098/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "outline_blur",
+        "island_noise",
+        "banding",
+        "background_clutter",
+        "subject_too_small",
+        "color_shift",
+        "detail_lost",
+        "thin_line_lost"
+      ],
+      "comment": "主体融入杂乱背景，看不出东西来，细节全部不可识别",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

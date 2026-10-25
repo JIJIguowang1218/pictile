@@ -1,0 +1,88 @@
+{
+  "image_id": "T01-B20261026B-I0016",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0016.jpg",
+  "sha256": "2c5624a09d15da3eb0e35c8d9a6696a7e1ba1ede291bad8ba0d257894b92796a",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H6",
+          "M9",
+          "H7",
+          "H20",
+          "A23",
+          "G14",
+          "H5",
+          "G11",
+          "D24",
+          "H16",
+          "C12",
+          "G17"
+        ],
+        "delta_e_p50": 6.792603571035806,
+        "delta_e_p95": 12.316555501007317,
+        "delta_e_max": 16.338244586605416,
+        "beads_total": 932,
+        "compute_ms": 312.2,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 378.9,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0016/preview.png",
+          "pdf": "T01-B20261026B-I0016/pattern.pdf",
+          "csv": "T01-B20261026B-I0016/usage.csv"
+        },
+        "rating": 4
+      },
+      "failures": [
+        "detail_lost"
+      ],
+      "comment": "关键眼白丢失，尺寸偏小，作为抽象作品可以接受",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

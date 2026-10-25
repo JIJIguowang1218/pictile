@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0021",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0021.jpg",
+  "sha256": "42ed2deef504ca9105e8c081a63c20011af0b571326709f8c0d3836d5f9ee585",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H4",
+          "H5",
+          "M7",
+          "M15",
+          "H6",
+          "H11",
+          "G17",
+          "M4",
+          "M12",
+          "H14",
+          "H23",
+          "G14"
+        ],
+        "delta_e_p50": 8.062158365087251,
+        "delta_e_p95": 11.751787655588796,
+        "delta_e_max": 12.367438047952753,
+        "beads_total": 931,
+        "compute_ms": 253.2,
+        "image_meta": {
+          "orig_size": [
+            750,
+            1027
+          ],
+          "crop_size": [
+            750,
+            750
+          ],
+          "crop_box": [
+            0,
+            138,
+            750,
+            888
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 319.6,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0021/preview.png",
+          "pdf": "T01-B20261026B-I0021/pattern.pdf",
+          "csv": "T01-B20261026B-I0021/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [
+        "skin_shift",
+        "color_shift",
+        "banding",
+        "outline_blur"
+      ],
+      "comment": "大卫，颈部与背景融合尺寸小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

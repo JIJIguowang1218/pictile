@@ -1,0 +1,82 @@
+{
+  "image_id": "T00-B20261026A-I0018",
+  "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0018.jpg",
+  "sha256": "80b3ab2ca2017c48ea30c5f1501ca05e940c117d2e50edccbdd87736663e6a5b",
+  "runs": [
+    {
+      "run_id": "RB20261026A-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 5,
+        "selected_codes": [
+          "H23",
+          "M15",
+          "H6",
+          "H5",
+          "H7",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7"
+        ],
+        "delta_e_p50": 3.5513247120210685,
+        "delta_e_p95": 8.668872167642258,
+        "delta_e_max": 11.57034321177508,
+        "beads_total": 928,
+        "compute_ms": 253.3,
+        "image_meta": {
+          "orig_size": [
+            1200,
+            1200
+          ],
+          "crop_size": [
+            1200,
+            1200
+          ],
+          "crop_box": [
+            0,
+            0,
+            1200,
+            1200
+          ]
+        },
+        "palette": "mard221.csv",
+        "total_ms": 300.8,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "files": {
+          "preview": "T00-B20261026A-I0018/preview.png",
+          "pdf": "T00-B20261026A-I0018/pattern.pdf",
+          "csv": "T00-B20261026A-I0018/usage.csv"
+        }
+      },
+      "failures": [],
+      "comment": "T00 structural smoke; no aesthetic rating.",
+      "reviewer": "zcode",
+      "updated_at": "2026-10-26T02:41:43+08:00"
+    }
+  ]
+}

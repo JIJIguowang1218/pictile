@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0040",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0040.jpg",
+  "sha256": "a3722c10a6eb3e416a96e5d0b5ed6a20316e177b6c2d42f8a9b0deac789b6e28",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M6",
+          "B23",
+          "M4",
+          "B11",
+          "G21",
+          "H11",
+          "M15",
+          "B32",
+          "B26",
+          "G4",
+          "H6",
+          "H23"
+        ],
+        "delta_e_p50": 6.572416936216225,
+        "delta_e_p95": 11.199465252358795,
+        "delta_e_max": 27.457078162953877,
+        "beads_total": 932,
+        "compute_ms": 224.3,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 288.4,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0040/preview.png",
+          "pdf": "T01-B20261026B-I0040/pattern.pdf",
+          "csv": "T01-B20261026B-I0040/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [
+        "detail_lost",
+        "outline_blur"
+      ],
+      "comment": "T01 human rating: 3/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

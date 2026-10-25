@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0058",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0058.jpg",
+  "sha256": "1c564689375eb88d8b6d82ebd3fef880ae6c7b10884aa80d13959a46de0ec0a4",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H7",
+          "H11",
+          "H3",
+          "H6",
+          "M8",
+          "F11",
+          "F6",
+          "H4",
+          "H10",
+          "H16",
+          "M12",
+          "M10"
+        ],
+        "delta_e_p50": 0.45801755575378583,
+        "delta_e_p95": 7.91451728349612,
+        "delta_e_max": 14.602969458920535,
+        "beads_total": 931,
+        "compute_ms": 251.2,
+        "image_meta": {
+          "orig_size": [
+            640,
+            477
+          ],
+          "crop_size": [
+            477,
+            477
+          ],
+          "crop_box": [
+            81,
+            0,
+            558,
+            477
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "product",
+        "total_ms": 316.5,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0058/preview.png",
+          "pdf": "T01-B20261026B-I0058/pattern.pdf",
+          "csv": "T01-B20261026B-I0058/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "outline_blur",
+        "detail_lost"
+      ],
+      "comment": "只能看出是鞋，细节全部丢失",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0014",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0014.jpg",
+  "sha256": "0d31f05db907114cea8bec4c326c318a45af4a573ba6f125dfa78d496e123921",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H18",
+          "A26",
+          "H2",
+          "A17",
+          "G6",
+          "G20",
+          "A1",
+          "A8",
+          "G5",
+          "A21",
+          "A15",
+          "G15"
+        ],
+        "delta_e_p50": 2.509495425189965,
+        "delta_e_p95": 5.090990692695475,
+        "delta_e_max": 18.123790526327404,
+        "beads_total": 930,
+        "compute_ms": 306.6,
+        "image_meta": {
+          "orig_size": [
+            1091,
+            1080
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            5,
+            0,
+            1085,
+            1080
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 379.2,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0014/preview.png",
+          "pdf": "T01-B20261026B-I0014/pattern.pdf",
+          "csv": "T01-B20261026B-I0014/usage.csv"
+        },
+        "rating": 4
+      },
+      "failures": [],
+      "comment": "尺寸偏小，眼睛高光丢失",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "stage": "T00",
+  "stage_name": "smoke",
+  "batch": "B20261026A",
+  "created_at": "2026-10-26T02:33:44+08:00",
+  "images": [
+    {
+      "image_id": "T00-B20261026A-I0001",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0001.png",
+      "sha256": "d39fe669d9518affbcca7ab465fbc1c59d0d3a8735baa21902b5d9c34159eb10",
+      "type": "cartoon",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/adventurer/png?seed=pictile-cartoon-1",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:01_卡通_冒险者头像.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:44+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0002",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0002.png",
+      "sha256": "621efb599df340d5b3d9eed62754b041b9412d1d87e0deea14306f4775fd67db",
+      "type": "cartoon",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/bottts/png?seed=pictile-cartoon-2",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:02_卡通_机器人角色.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:44+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0003",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0003.png",
+      "sha256": "842029609b3b70f6635bb654a7b7f566e3d255ee4d75281240d5f1235ea32833",
+      "type": "cartoon",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/fun-emoji/png?seed=pictile-cartoon-3",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:03_卡通_表情角色.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:44+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0004",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0004.jpg",
+      "sha256": "2663d0b32a51571de3f6b94ce80f81c3cc83a01398e7a3301086a845e4a2a9e7",
+      "type": "portrait",
+      "source_kind": "web",
+      "source_url": "https://randomuser.me/api/portraits/women/44.jpg",
+      "license": "unknown (test only)",
+      "notes": "staged:04_人物_正面肖像_女.jpg; 128×128 低分辨率",
+      "added_at": "2026-10-26T02:33:45+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0005",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0005.jpg",
+      "sha256": "5fd8ac63e8a4c881b49ceffd6dcf4523da8cd7c52ed67a89d51e703c72fea9a8",
+      "type": "portrait",
+      "source_kind": "web",
+      "source_url": "https://randomuser.me/api/portraits/men/32.jpg",
+      "license": "unknown (test only)",
+      "notes": "staged:05_人物_正面肖像_男.jpg; 128×128 低分辨率",
+      "added_at": "2026-10-26T02:33:45+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0006",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0006.jpg",
+      "sha256": "613d94c47546082b4f9fdc678e64bd40d8e88cf044d7343dee1720fc62425aed",
+      "type": "portrait",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/1",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:06_人物_工作场景.jpg; Picsum id 1",
+      "added_at": "2026-10-26T02:33:45+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0007",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0007.jpg",
+      "sha256": "c6892e0eb8a2a8016d14406b4ae271ad5d67ae94249749a8207c711755e68349",
+      "type": "pet",
+      "source_kind": "web",
+      "source_url": "https://placedog.net/1200/1200?id=1",
+      "license": "unknown (test only)",
+      "notes": "staged:07_宠物_狗狗正面.jpg; placeholder service",
+      "added_at": "2026-10-26T02:33:45+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0008",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0008.jpg",
+      "sha256": "9b09d3aa5b9ef18683af9a502d8512f1637ad765208b8ac2adacc635ff645498",
+      "type": "pet",
+      "source_kind": "web",
+      "source_url": "https://placedog.net/1200/1200?id=10",
+      "license": "unknown (test only)",
+      "notes": "staged:08_宠物_狗狗侧面.jpg; placeholder service",
+      "added_at": "2026-10-26T02:33:46+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0009",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0009.png",
+      "sha256": "8f9ef3c9f63823a93420637f2088a98b052693e697142f8051449d8dba4d76bf",
+      "type": "logo",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/initials/png?seed=PT",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:09_Logo_字母标志.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:46+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0010",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0010.png",
+      "sha256": "f3c4d3bd3c62eba191bf1e7ac3e7111f496e81ce0010fae075568896b10b25a5",
+      "type": "logo",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/shapes/png?seed=pictile-logo-2",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:10_Logo_几何形状.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:46+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0011",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0011.png",
+      "sha256": "942f6d31db56fad8cdf4b1543e6a4ebae9d7bdfee905ecfbaff6bf56fb4ae5e5",
+      "type": "logo",
+      "source_kind": "generated",
+      "source_url": "https://api.dicebear.com/9.x/identicon/png?seed=pictile-logo-3",
+      "license": "DiceBear style license (verify)",
+      "notes": "staged:11_Logo_几何图标.png; 128x128 生成头像",
+      "added_at": "2026-10-26T02:33:46+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0012",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0012.jpg",
+      "sha256": "08639c4c7ab40bc3c5bedf9d55f13027c7ecf1adfbcaff7d51334a298a2e58db",
+      "type": "product",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/20",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:12_产品风景_桌面平铺.jpg; Picsum id 20",
+      "added_at": "2026-10-26T02:33:47+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0013",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0013.jpg",
+      "sha256": "ef644ea86c56ee82cf2e66c2eff79f0c1dffe7000330b7d53c109a3a23c19ad9",
+      "type": "scene",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/45",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:13_产品风景_街景小车.jpg; Picsum id 45",
+      "added_at": "2026-10-26T02:33:47+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0014",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0014.jpg",
+      "sha256": "d3b3ae6696969e249dd79cb75774c518bc8e62ca8dce6c4d3e43433698a22c74",
+      "type": "text",
+      "source_kind": "generated",
+      "source_url": "generated locally",
+      "license": "CC0 (self-generated)",
+      "notes": "staged:14_文字截图_中文海报.png; Pillow 生成",
+      "added_at": "2026-10-26T02:33:47+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0015",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0015.jpg",
+      "sha256": "d81333d69f1446eb7615f197db5be6753ea24763ec38867f70f06793b4a434e7",
+      "type": "screenshot",
+      "source_kind": "generated",
+      "source_url": "generated locally",
+      "license": "CC0 (self-generated)",
+      "notes": "staged:15_文字截图_界面布局.png; Pillow 生成",
+      "added_at": "2026-10-26T02:33:48+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0016",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0016.jpg",
+      "sha256": "4726767f63daf341368e289ea99a21a438e9c417021ee149a33940998a291401",
+      "type": "hard_negative",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/22",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:16_硬负例_主体过小.jpg; Picsum id 22",
+      "added_at": "2026-10-26T02:33:48+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0017",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0017.jpg",
+      "sha256": "21d8fadb9bd3cd8f76bf37cebad896faee70cc7cfa39b06eede930a1e86f2c44",
+      "type": "hard_negative",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/36",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:17_硬负例_背景杂乱.jpg; Picsum id 36",
+      "added_at": "2026-10-26T02:33:48+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0018",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0018.jpg",
+      "sha256": "80b3ab2ca2017c48ea30c5f1501ca05e940c117d2e50edccbdd87736663e6a5b",
+      "type": "hard_negative",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/44",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:18_硬负例_低对比雾景.jpg; Picsum id 44",
+      "added_at": "2026-10-26T02:33:48+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0019",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0019.jpg",
+      "sha256": "74bd5e1873fa7b31e2e700f0a1a33aecaebdf6cee12a7b475ec7d6bc77282658",
+      "type": "other",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/30",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:19_简单正例_干净杯子.jpg; Picsum id 30",
+      "added_at": "2026-10-26T02:33:49+08:00"
+    },
+    {
+      "image_id": "T00-B20261026A-I0020",
+      "path": "tests/images/T00-smoke/B20261026A/T00-B20261026A-I0020.jpg",
+      "sha256": "5aa3f52260e86ad378b58b9612bf686e703513e5199bb1d1441d1718cee7cd3c",
+      "type": "other",
+      "source_kind": "web",
+      "source_url": "https://picsum.photos/id/2",
+      "license": "Unsplash License (via Picsum)",
+      "notes": "staged:20_简单正例_干净桌面.jpg; Picsum id 2",
+      "added_at": "2026-10-26T02:33:49+08:00"
+    }
+  ]
+}

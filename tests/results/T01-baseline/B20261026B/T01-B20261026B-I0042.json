@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0042",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0042.jpg",
+  "sha256": "a04ad7ea9553def6afdb5e762c351dc1138248d8cb53d3f6d866cad33cae583e",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H23",
+          "M15",
+          "H14",
+          "H5",
+          "H15",
+          "C3",
+          "H3",
+          "M1",
+          "H4",
+          "M3",
+          "B23",
+          "H9"
+        ],
+        "delta_e_p50": 5.6551527787980564,
+        "delta_e_p95": 10.971994231190358,
+        "delta_e_max": 13.397981102172915,
+        "beads_total": 932,
+        "compute_ms": 215.1,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 271.3,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0042/preview.png",
+          "pdf": "T01-B20261026B-I0042/pattern.pdf",
+          "csv": "T01-B20261026B-I0042/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "background_clutter",
+        "detail_lost",
+        "outline_blur",
+        "eye_lost"
+      ],
+      "comment": "T01 human rating: 2/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

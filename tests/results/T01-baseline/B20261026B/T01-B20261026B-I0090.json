@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0090",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0090.jpg",
+  "sha256": "61fee65e3cee8142d3caae1f26180144b6daa963d03e6f31f4ecb569ac036e76",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M1",
+          "B11",
+          "M4",
+          "B32",
+          "B23",
+          "B12",
+          "H14",
+          "M2",
+          "M7",
+          "H6",
+          "H10",
+          "H20"
+        ],
+        "delta_e_p50": 5.36884238812402,
+        "delta_e_p95": 10.47888264814892,
+        "delta_e_max": 23.309148718363208,
+        "beads_total": 930,
+        "compute_ms": 211.4,
+        "image_meta": {
+          "orig_size": [
+            540,
+            597
+          ],
+          "crop_size": [
+            540,
+            540
+          ],
+          "crop_box": [
+            0,
+            28,
+            540,
+            568
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "screenshot",
+        "total_ms": 271.9,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0090/preview.png",
+          "pdf": "T01-B20261026B-I0090/pattern.pdf",
+          "csv": "T01-B20261026B-I0090/usage.csv"
+        },
+        "rating": 5
+      },
+      "failures": [],
+      "comment": "T01 human rating: 5/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

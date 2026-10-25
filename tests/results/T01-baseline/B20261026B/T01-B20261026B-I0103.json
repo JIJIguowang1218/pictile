@@ -1,0 +1,91 @@
+{
+  "image_id": "T01-B20261026B-I0103",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0103.jpg",
+  "sha256": "e0446ef467f1e51f0d5e98c6de0c27ccdbef74e6f81db091c783a93314b46556",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M7",
+          "H14",
+          "G14",
+          "G21",
+          "H3",
+          "M4",
+          "M8",
+          "F19",
+          "C16",
+          "H4",
+          "G11",
+          "H19"
+        ],
+        "delta_e_p50": 5.517722149306407,
+        "delta_e_p95": 10.349778409135808,
+        "delta_e_max": 19.429460470568877,
+        "beads_total": 930,
+        "compute_ms": 220.7,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "硬负例",
+        "type": "hard_negative",
+        "total_ms": 277.2,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0103/preview.png",
+          "pdf": "T01-B20261026B-I0103/pattern.pdf",
+          "csv": "T01-B20261026B-I0103/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "outline_blur",
+        "detail_lost",
+        "color_shift",
+        "banding"
+      ],
+      "comment": "边缘色彩偏灰、脏",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

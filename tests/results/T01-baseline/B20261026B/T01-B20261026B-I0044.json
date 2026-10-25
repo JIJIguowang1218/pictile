@@ -1,0 +1,92 @@
+{
+  "image_id": "T01-B20261026B-I0044",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0044.jpg",
+  "sha256": "52449841a59cc514b8a00e1104c69a7c6822daa0e9139541e78dc925a340b942",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M9",
+          "G17",
+          "M4",
+          "H23",
+          "G14",
+          "G4",
+          "M15",
+          "M7",
+          "H5",
+          "F11",
+          "H16",
+          "G21"
+        ],
+        "delta_e_p50": 7.45639163396973,
+        "delta_e_p95": 12.707753209296161,
+        "delta_e_max": 19.786879248550267,
+        "beads_total": 931,
+        "compute_ms": 335.5,
+        "image_meta": {
+          "orig_size": [
+            822,
+            1338
+          ],
+          "crop_size": [
+            822,
+            822
+          ],
+          "crop_box": [
+            0,
+            258,
+            822,
+            1080
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 397.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0044/preview.png",
+          "pdf": "T01-B20261026B-I0044/pattern.pdf",
+          "csv": "T01-B20261026B-I0044/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "eye_lost",
+        "detail_lost",
+        "color_shift",
+        "banding",
+        "background_clutter"
+      ],
+      "comment": "明显尺寸小了。",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

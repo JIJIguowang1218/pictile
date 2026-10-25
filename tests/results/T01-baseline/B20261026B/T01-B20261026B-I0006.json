@@ -1,0 +1,94 @@
+{
+  "image_id": "T01-B20261026B-I0006",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0006.jpg",
+  "sha256": "47484314bd528a3093cdf179053875ab0c7ffba98e9f4fef1110b928cbb2e6a2",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H4",
+          "C12",
+          "D11",
+          "C29",
+          "D4",
+          "D2",
+          "D10",
+          "H20",
+          "C28",
+          "H6",
+          "H5",
+          "C7"
+        ],
+        "delta_e_p50": 8.890149436235713,
+        "delta_e_p95": 13.154519607732473,
+        "delta_e_max": 20.302165886920836,
+        "beads_total": 931,
+        "compute_ms": 263.2,
+        "image_meta": {
+          "orig_size": [
+            1148,
+            800
+          ],
+          "crop_size": [
+            800,
+            800
+          ],
+          "crop_box": [
+            174,
+            0,
+            974,
+            800
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 329.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0006/preview.png",
+          "pdf": "T01-B20261026B-I0006/pattern.pdf",
+          "csv": "T01-B20261026B-I0006/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "outline_blur",
+        "skin_shift",
+        "color_shift",
+        "detail_lost",
+        "thin_line_lost",
+        "background_clutter",
+        "banding"
+      ],
+      "comment": "T01 human rating: 1/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

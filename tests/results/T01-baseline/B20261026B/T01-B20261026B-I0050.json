@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0050",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0050.jpg",
+  "sha256": "2cb76403bf1f5a410a05784281ed28d5a66c828071a0ee3cb8c8e52a4070c775",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H9",
+          "H6",
+          "H4",
+          "H2",
+          "H5",
+          "H3",
+          "H11",
+          "M15",
+          "H20",
+          "H16",
+          "F19",
+          "E15"
+        ],
+        "delta_e_p50": 1.8287216298254618,
+        "delta_e_p95": 6.7547678025115125,
+        "delta_e_max": 10.809626199635748,
+        "beads_total": 931,
+        "compute_ms": 236.9,
+        "image_meta": {
+          "orig_size": [
+            500,
+            500
+          ],
+          "crop_size": [
+            500,
+            500
+          ],
+          "crop_box": [
+            0,
+            0,
+            500,
+            500
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "logo",
+        "total_ms": 294.4,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0050/preview.png",
+          "pdf": "T01-B20261026B-I0050/pattern.pdf",
+          "csv": "T01-B20261026B-I0050/usage.csv"
+        },
+        "rating": 5
+      },
+      "failures": [],
+      "comment": "尺寸小了点",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

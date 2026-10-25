@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0101",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0101.jpg",
+  "sha256": "931a45a440cd8d27408641dcb70b1a54cceae0407e680a0f6234bb5e4b8ecc2e",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M15",
+          "H5",
+          "M7",
+          "H4",
+          "G14",
+          "M9",
+          "G17",
+          "H6",
+          "H3",
+          "H11",
+          "B23",
+          "M12"
+        ],
+        "delta_e_p50": 8.911506733570512,
+        "delta_e_p95": 11.952075135674312,
+        "delta_e_max": 13.620973779721755,
+        "beads_total": 930,
+        "compute_ms": 228.5,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "硬负例",
+        "type": "hard_negative",
+        "total_ms": 286.6,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0101/preview.png",
+          "pdf": "T01-B20261026B-I0101/pattern.pdf",
+          "csv": "T01-B20261026B-I0101/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [
+        "color_shift",
+        "skin_shift"
+      ],
+      "comment": "T01 human rating: 3/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

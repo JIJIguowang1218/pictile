@@ -1,0 +1,88 @@
+{
+  "image_id": "T01-B20261026B-I0091",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0091.jpg",
+  "sha256": "e8e3e1944350709db6bf60fbada36c8db04df73d9eeec38350ec52419c1051f5",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "B25",
+          "B21",
+          "M2",
+          "B11",
+          "H15",
+          "B32",
+          "B22",
+          "C19",
+          "M1",
+          "M3",
+          "H14",
+          "M6"
+        ],
+        "delta_e_p50": 6.451905619228571,
+        "delta_e_p95": 10.272843900757788,
+        "delta_e_max": 12.259138778821889,
+        "beads_total": 930,
+        "compute_ms": 210.3,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1080
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            0,
+            1080,
+            1080
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "screenshot",
+        "total_ms": 272.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0091/preview.png",
+          "pdf": "T01-B20261026B-I0091/pattern.pdf",
+          "csv": "T01-B20261026B-I0091/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "detail_lost"
+      ],
+      "comment": "尺寸太小了，细节丢失",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

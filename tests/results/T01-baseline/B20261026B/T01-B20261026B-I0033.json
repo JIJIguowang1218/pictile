@@ -1,0 +1,90 @@
+{
+  "image_id": "T01-B20261026B-I0033",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0033.jpg",
+  "sha256": "46043ef00193066bd7ad9e7818fb44b6263e79cb060dfe20e2aa155623761207",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M9",
+          "H16",
+          "M4",
+          "F10",
+          "M7",
+          "H7",
+          "H6",
+          "G14",
+          "B23",
+          "H19",
+          "F11",
+          "M15"
+        ],
+        "delta_e_p50": 5.408197011475301,
+        "delta_e_p95": 13.398902078776473,
+        "delta_e_max": 16.00417198867026,
+        "beads_total": 931,
+        "compute_ms": 215.5,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1440
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            180,
+            1080,
+            1260
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 275.7,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0033/preview.png",
+          "pdf": "T01-B20261026B-I0033/pattern.pdf",
+          "csv": "T01-B20261026B-I0033/usage.csv"
+        },
+        "rating": 4
+      },
+      "failures": [
+        "detail_lost",
+        "skin_shift",
+        "banding"
+      ],
+      "comment": "高光丢失，尺寸小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

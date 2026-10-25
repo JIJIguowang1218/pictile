@@ -1,0 +1,88 @@
+{
+  "image_id": "T01-B20261026B-I0065",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0065.jpg",
+  "sha256": "8aae5ead4d7b9d59569a1904a95aaeaf3b654bfe788a5df963325e56d4f9d167",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H2",
+          "F10",
+          "M7",
+          "G13",
+          "F11",
+          "G20",
+          "A23",
+          "H17",
+          "G14",
+          "M9",
+          "G19",
+          "F6"
+        ],
+        "delta_e_p50": 0.6883524383260744,
+        "delta_e_p95": 8.67689052310382,
+        "delta_e_max": 29.39046345535034,
+        "beads_total": 929,
+        "compute_ms": 261.9,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1080
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            0,
+            1080,
+            1080
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "product",
+        "total_ms": 334.3,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0065/preview.png",
+          "pdf": "T01-B20261026B-I0065/pattern.pdf",
+          "csv": "T01-B20261026B-I0065/usage.csv"
+        },
+        "rating": 3
+      },
+      "failures": [
+        "detail_lost"
+      ],
+      "comment": "T01 human rating: 3/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

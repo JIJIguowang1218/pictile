@@ -1,0 +1,94 @@
+{
+  "image_id": "T01-B20261026B-I0032",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0032.jpg",
+  "sha256": "ebded92584f44474655d9266531fd6518f50f834c923bce6e38acde544af97ed",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H5",
+          "M7",
+          "C16",
+          "H11",
+          "B23",
+          "M15",
+          "G14",
+          "H6",
+          "M9",
+          "H20",
+          "B22",
+          "H16"
+        ],
+        "delta_e_p50": 8.286234596896735,
+        "delta_e_p95": 13.457055544770695,
+        "delta_e_max": 17.231885981627656,
+        "beads_total": 931,
+        "compute_ms": 208.0,
+        "image_meta": {
+          "orig_size": [
+            816,
+            1456
+          ],
+          "crop_size": [
+            816,
+            816
+          ],
+          "crop_box": [
+            0,
+            320,
+            816,
+            1136
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 272.1,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0032/preview.png",
+          "pdf": "T01-B20261026B-I0032/pattern.pdf",
+          "csv": "T01-B20261026B-I0032/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "detail_lost",
+        "background_clutter",
+        "skin_shift",
+        "banding",
+        "thin_line_lost",
+        "eye_lost",
+        "outline_blur"
+      ],
+      "comment": "尺寸小了不合适",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

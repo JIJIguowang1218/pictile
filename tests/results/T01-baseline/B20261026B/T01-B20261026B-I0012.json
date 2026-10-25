@@ -1,0 +1,90 @@
+{
+  "image_id": "T01-B20261026B-I0012",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0012.jpg",
+  "sha256": "c473b80e9c37059fd2998685f9808d55a10be2a5d52571b9c366fc618295112b",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H9",
+          "C29",
+          "H2",
+          "H4",
+          "C7",
+          "H3",
+          "E11",
+          "C12",
+          "H11",
+          "C16",
+          "H13",
+          "H5"
+        ],
+        "delta_e_p50": 1.3868388402160627,
+        "delta_e_p95": 10.997113205857433,
+        "delta_e_max": 16.56733661607648,
+        "beads_total": 931,
+        "compute_ms": 226.2,
+        "image_meta": {
+          "orig_size": [
+            387,
+            387
+          ],
+          "crop_size": [
+            387,
+            387
+          ],
+          "crop_box": [
+            0,
+            0,
+            387,
+            387
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "cartoon",
+        "total_ms": 284.8,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0012/preview.png",
+          "pdf": "T01-B20261026B-I0012/pattern.pdf",
+          "csv": "T01-B20261026B-I0012/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "detail_lost",
+        "outline_blur",
+        "banding"
+      ],
+      "comment": "边缘色彩偏灰、脏",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

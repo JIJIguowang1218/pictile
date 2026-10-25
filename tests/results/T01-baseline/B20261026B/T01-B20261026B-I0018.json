@@ -1,0 +1,92 @@
+{
+  "image_id": "T01-B20261026B-I0018",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0018.jpg",
+  "sha256": "3934ee35e6d822eb3923c1bb59bd14f77ef5ca31ae8521f8f0244bffe68e4bfb",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M15",
+          "M7",
+          "H5",
+          "M4",
+          "B15",
+          "M9",
+          "M3",
+          "H20",
+          "A23",
+          "C18",
+          "H23",
+          "G14"
+        ],
+        "delta_e_p50": 7.524847257574874,
+        "delta_e_p95": 12.124243688424967,
+        "delta_e_max": 16.50045218781986,
+        "beads_total": 932,
+        "compute_ms": 216.4,
+        "image_meta": {
+          "orig_size": [
+            1080,
+            1332
+          ],
+          "crop_size": [
+            1080,
+            1080
+          ],
+          "crop_box": [
+            0,
+            126,
+            1080,
+            1206
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "portrait",
+        "total_ms": 276.0,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0018/preview.png",
+          "pdf": "T01-B20261026B-I0018/pattern.pdf",
+          "csv": "T01-B20261026B-I0018/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "background_clutter",
+        "island_noise",
+        "outline_blur",
+        "detail_lost",
+        "eye_lost"
+      ],
+      "comment": "眼睛糊、眼白丢失，尺寸小了不适合",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "image_id": "T01-B20261026B-I0036",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0036.jpg",
+  "sha256": "e71b0723f2df963568b591d5d90016349123ed7a793083c2f115a04a3a91ed29",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M7",
+          "H5",
+          "M4",
+          "M9",
+          "H19",
+          "H16",
+          "D3",
+          "G16",
+          "G14",
+          "F11",
+          "H2",
+          "D2"
+        ],
+        "delta_e_p50": 4.444879788628182,
+        "delta_e_p95": 11.724781824061802,
+        "delta_e_max": 17.42577655727627,
+        "beads_total": 929,
+        "compute_ms": 342.0,
+        "image_meta": {
+          "orig_size": [
+            1024,
+            1024
+          ],
+          "crop_size": [
+            1024,
+            1024
+          ],
+          "crop_box": [
+            0,
+            0,
+            1024,
+            1024
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "pet",
+        "total_ms": 430.9,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0036/preview.png",
+          "pdf": "T01-B20261026B-I0036/pattern.pdf",
+          "csv": "T01-B20261026B-I0036/usage.csv"
+        },
+        "rating": 1
+      },
+      "failures": [
+        "eye_lost",
+        "outline_blur",
+        "banding",
+        "color_shift",
+        "detail_lost"
+      ],
+      "comment": "高光丢失，几乎不能用",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

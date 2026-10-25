@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0071",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0071.jpg",
+  "sha256": "e17f6a02ac8bac62f4b8431ae722db6da95b069bd54281e0d7ed71c42b613516",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H7",
+          "C20",
+          "M7",
+          "C18",
+          "G11",
+          "M9",
+          "C19",
+          "H5",
+          "M15",
+          "G4",
+          "H23",
+          "B21"
+        ],
+        "delta_e_p50": 9.903098255334541,
+        "delta_e_p95": 11.11977030163547,
+        "delta_e_max": 15.778614775914619,
+        "beads_total": 933,
+        "compute_ms": 225.6,
+        "image_meta": {
+          "orig_size": [
+            958,
+            1600
+          ],
+          "crop_size": [
+            958,
+            958
+          ],
+          "crop_box": [
+            0,
+            321,
+            958,
+            1279
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "scene",
+        "total_ms": 286.3,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0071/preview.png",
+          "pdf": "T01-B20261026B-I0071/pattern.pdf",
+          "csv": "T01-B20261026B-I0071/usage.csv"
+        },
+        "rating": 4
+      },
+      "failures": [],
+      "comment": "背景色阶断裂",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

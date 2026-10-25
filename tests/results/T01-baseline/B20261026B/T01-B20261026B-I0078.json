@@ -1,0 +1,89 @@
+{
+  "image_id": "T01-B20261026B-I0078",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0078.jpg",
+  "sha256": "a3410943e477aa7204bca26203aa92487a14b97c75d27a52f5e3178b12bb7558",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "fail",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "M15",
+          "C16",
+          "B15",
+          "H22",
+          "C20",
+          "B23",
+          "B11",
+          "H20",
+          "C29",
+          "G14",
+          "D24",
+          "H10"
+        ],
+        "delta_e_p50": 4.540935113890113,
+        "delta_e_p95": 10.49332877954071,
+        "delta_e_max": 15.690668849344727,
+        "beads_total": 931,
+        "compute_ms": 337.4,
+        "image_meta": {
+          "orig_size": [
+            1600,
+            1066
+          ],
+          "crop_size": [
+            1066,
+            1066
+          ],
+          "crop_box": [
+            267,
+            0,
+            1333,
+            1066
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "scene",
+        "total_ms": 412.0,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0078/preview.png",
+          "pdf": "T01-B20261026B-I0078/pattern.pdf",
+          "csv": "T01-B20261026B-I0078/usage.csv"
+        },
+        "rating": 2
+      },
+      "failures": [
+        "detail_lost",
+        "banding"
+      ],
+      "comment": "背景色彩太杂太多，尺寸小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

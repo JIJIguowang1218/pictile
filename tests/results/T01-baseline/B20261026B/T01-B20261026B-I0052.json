@@ -1,0 +1,88 @@
+{
+  "image_id": "T01-B20261026B-I0052",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0052.jpg",
+  "sha256": "a98797550f563c7c4b7b1ba6397e68220cd9c9de7c9c825caa02360c1101ef2a",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "C16",
+          "G7",
+          "A26",
+          "G6",
+          "C12",
+          "B26",
+          "H2",
+          "F7",
+          "F5",
+          "B23",
+          "G19",
+          "E15"
+        ],
+        "delta_e_p50": 4.201436751321929,
+        "delta_e_p95": 11.24845619121902,
+        "delta_e_max": 18.29739089321119,
+        "beads_total": 930,
+        "compute_ms": 207.8,
+        "image_meta": {
+          "orig_size": [
+            720,
+            1600
+          ],
+          "crop_size": [
+            720,
+            720
+          ],
+          "crop_box": [
+            0,
+            440,
+            720,
+            1160
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "logo",
+        "total_ms": 275.3,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0052/preview.png",
+          "pdf": "T01-B20261026B-I0052/pattern.pdf",
+          "csv": "T01-B20261026B-I0052/usage.csv"
+        },
+        "rating": 4
+      },
+      "failures": [
+        "detail_lost"
+      ],
+      "comment": "稍微尺寸小了",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}

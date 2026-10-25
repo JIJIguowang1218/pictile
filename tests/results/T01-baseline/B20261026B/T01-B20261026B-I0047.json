@@ -1,0 +1,86 @@
+{
+  "image_id": "T01-B20261026B-I0047",
+  "path": "tests/images/T01-baseline/B20261026B/T01-B20261026B-I0047.jpg",
+  "sha256": "5e20a419477be6dd70e81f8fde61886e887c19dda967a7f53e36090a36120d2f",
+  "runs": [
+    {
+      "run_id": "RB20261026B-v0",
+      "variant": "29x29_12c_area_mard221_v0",
+      "date": "2026-10-26",
+      "verdict": "pass",
+      "metrics": {
+        "grid": [
+          29,
+          29
+        ],
+        "cells_total": 841,
+        "colors_used": 12,
+        "selected_codes": [
+          "H9",
+          "H7",
+          "H4",
+          "H2",
+          "H6",
+          "H3",
+          "H5",
+          "H11",
+          "M15",
+          "H20",
+          "H16",
+          "H23"
+        ],
+        "delta_e_p50": 1.5356972935673368,
+        "delta_e_p95": 6.025766191630857,
+        "delta_e_max": 10.781307560764656,
+        "beads_total": 932,
+        "compute_ms": 239.5,
+        "image_meta": {
+          "orig_size": [
+            600,
+            600
+          ],
+          "crop_size": [
+            600,
+            600
+          ],
+          "crop_box": [
+            0,
+            0,
+            600,
+            600
+          ]
+        },
+        "palette": "mard221.csv",
+        "group": "正例",
+        "type": "logo",
+        "total_ms": 296.9,
+        "csv_cells_total": 841,
+        "pdf": {
+          "page": "A4",
+          "pages": 1,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "grid": [
+            29,
+            29
+          ],
+          "cell_mm": 5.0,
+          "ruler_mm": 10.0
+        },
+        "structural_failures": [],
+        "files": {
+          "preview": "T01-B20261026B-I0047/preview.png",
+          "pdf": "T01-B20261026B-I0047/pattern.pdf",
+          "csv": "T01-B20261026B-I0047/usage.csv"
+        },
+        "rating": 5
+      },
+      "failures": [],
+      "comment": "T01 human rating: 5/5",
+      "reviewer": "owner",
+      "updated_at": "2026-10-26T05:58:58+08:00"
+    }
+  ]
+}
