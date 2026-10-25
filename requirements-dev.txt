@@ -1,0 +1,6 @@
+# Development / test / staging dependencies
+-r requirements.txt
+
+requests>=2.31
+jsonschema>=4.20
+pytest>=8.0

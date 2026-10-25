@@ -22,6 +22,15 @@ tmp/
 _research/
 *.log
 
+# committed palette assets are part of the code, not local scratch
+!src/pictile/data/
+!src/pictile/data/**
+
+# test images are local-only (copy via USB); only manifests/results/index sync
+tests/images/
+tests/archive/
+tests/local.json
+
 # editor / os
 .DS_Store
 Thumbs.db

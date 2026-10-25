@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "pictile test batch manifest",
+  "type": "object",
+  "required": ["stage", "stage_name", "batch", "created_at", "images"],
+  "additionalProperties": false,
+  "properties": {
+    "stage": { "type": "string", "pattern": "^T[0-9]{2}$" },
+    "stage_name": { "type": "string" },
+    "batch": { "type": "string", "pattern": "^B[0-9]{8}[A-Z]$" },
+    "created_at": { "type": "string" },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["image_id", "path", "sha256", "type", "source_kind", "license"],
+        "additionalProperties": false,
+        "properties": {
+          "image_id": { "type": "string", "pattern": "^T[0-9]{2}-B[0-9]{8}[A-Z]-I[0-9]{4}$" },
+          "path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "type": {
+            "type": "string",
+            "enum": ["portrait", "cartoon", "pet", "logo", "text", "product", "scene", "abstract", "lowres", "transparent", "multi_subject", "night", "texture", "lineart", "screenshot", "hard_negative", "other"]
+          },
+          "source_kind": {
+            "type": "string",
+            "enum": ["web", "own", "cc0", "generated", "purchased", "other"]
+          },
+          "source_url": { "type": "string" },
+          "license": { "type": "string" },
+          "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "notes": { "type": "string" },
+          "added_at": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "pictile per-image test result",
+  "type": "object",
+  "required": ["image_id", "path", "sha256", "runs"],
+  "additionalProperties": false,
+  "properties": {
+    "image_id": { "type": "string", "pattern": "^T[0-9]{2}-B[0-9]{8}[A-Z]-I[0-9]{4}$" },
+    "path": { "type": "string" },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["run_id", "variant", "date", "verdict", "metrics", "failures", "comment", "reviewer"],
+        "additionalProperties": false,
+        "properties": {
+          "run_id": { "type": "string" },
+          "variant": { "type": "string" },
+          "date": { "type": "string" },
+          "verdict": { "type": "string", "enum": ["pass", "fail", "review"] },
+          "metrics": { "type": "object" },
+          "failures": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["eye_lost", "text_unreadable", "outline_blur", "island_noise", "skin_shift", "banding", "background_clutter", "subject_too_small", "thin_line_lost", "color_shift", "detail_lost", "other", "pipeline_error", "invalid_color", "grid_mismatch", "cell_count_mismatch", "missing_export", "pdf_invalid", "csv_mismatch", "color_count_exceeded"]
+            }
+          },
+          "comment": { "type": "string" },
+          "reviewer": { "type": "string" },
+          "updated_at": { "type": "string" }
+        }
+      }
+    }
+  }
+}
